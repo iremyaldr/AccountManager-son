@@ -3,9 +3,9 @@ import { PublicClientApplication, LogLevel } from '@azure/msal-browser';
 
 export const msalConfig = {
   auth: {
-    clientId: 'c6162f22-8a6b-4840-a7f0-d5a44a25534d',
-    authority: 'https://login.microsoftonline.com/iremyaldir2003gmail.onmicrosoft.com',
-    redirectUri: 'http://localhost:3000', // or your production URL
+    clientId: 'client_id',
+    authority: 'https://login.microsoftonline.com/tenant_id',
+    redirectUri: 'url', // or your production URL
     navigateToLoginRequestUrl: false,
   },
   cache: {
